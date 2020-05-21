@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="22sp"
+        android:background="@drawable/listcolour"
+        android:id="@+id/list1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/milkimage"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/milk" />
+
+        <TextView
+            android:id="@+id/milk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Milk"
+            android:textColor="#F8F6F6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="22sp"
+        android:id="@+id/list2"
+        android:background="@drawable/listcolour"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/riceImage"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/rice" />
+
+        <TextView
+            android:id="@+id/rice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Rice"
+            android:textColor="#F8F6F6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:elevation="22sp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="22sp"
+        android:id="@+id/list3"
+        android:background="@drawable/listcolour"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/nutsImage"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/nuts" />
+
+        <TextView
+            android:id="@+id/Nuts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Nuts"
+            android:textColor="#F8F6F6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="22sp"
+        android:background="@drawable/listcolour"
+        android:id="@+id/list4"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/meatImage"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/meat" />
+
+        <TextView
+            android:id="@+id/RedMeats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Red Meats"
+            android:textColor="#F8F6F6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:elevation="22sp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="22sp"
+        android:id="@+id/list5"
+        android:background="@drawable/listcolour"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/PotatoeImage"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/potatoes" />
+
+        <TextView
+            android:id="@+id/potatoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Potatoes"
+            android:textColor="#F8F6F6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="22sp"
+        android:id="@+id/list6"
+        android:background="@drawable/listcolour"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/driedImage"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/driedfruits" />
+
+        <TextView
+            android:id="@+id/DriedFruits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Dried Fruits"
+            android:textColor="#F8F6F6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="22sp"
+        android:id="@+id/list7"
+        android:background="@drawable/listcolour"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/breadImage"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/bread" />
+
+        <TextView
+            android:id="@+id/bread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Whole Grain Bread"
+            android:textColor="#F8F6F6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listcolour"
+        android:layout_margin="5dp"
+        android:elevation="22sp"
+        android:id="@+id/list8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/avocadosImage"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/avocados" />
+
+        <TextView
+            android:id="@+id/avocados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="Avocados"
+            android:textColor="#F8F6F6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

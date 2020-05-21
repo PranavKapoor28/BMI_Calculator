@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7141414"
+    tools:context=".bmicalc">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="229dp"
+        android:layout_height="215dp"
+        android:background="@drawable/rounnded_textview"
+        android:gravity="center"
+        android:text="YOUR BMI IS:"
+        android:textColor="#FAFC8004"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="202dp"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="YOUR BMI IS:"
+        android:textColor="#FAFAF9F9"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="358dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#E6FF05"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
