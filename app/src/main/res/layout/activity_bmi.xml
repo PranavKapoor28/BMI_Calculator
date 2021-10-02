@@ -62,7 +62,7 @@
         android:layout_height="44dp"
         android:background="#F33030"
         android:gravity="center"
-        android:text="Button"
+        android:text="Calculate BMI"
         android:textColor="#FDFBFB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
